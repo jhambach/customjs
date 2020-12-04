@@ -1,4 +1,4 @@
-function() {
+! function() {
     function e(e) {
         try {
             return e() } catch (t) { window.console && window.console.log && window.console.log.apply && window.console.log("Freshdesk Error: ", t) } }
@@ -55,7 +55,7 @@ function() {
         _ = /^[a-zA-Z]+:\/\//,
         w = 2,
         k = { widgetId: 0, buttonText: "Support", buttonBg: "#7eb600", buttonColor: "white", backgroundImage: "https://attachment.freshservice.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcwMDE3NzE1MjcsImRvbWFpbiI6InNuYXBjb20uZnJlc2hzZXJ2aWNlLmNvbSIsInR5cGUiOjF9.PFRJv0z7X9uZnUSVSMwWQC0wDB4OS2CPreNfROrDYUg", alignment: "3", offset: "500px", url: "http://support.snapcom.com", assetUrl: "https://assets.freshservice.com/widget", queryString: "", screenshot: "no", formHeight: "500px", responsive: "yes", widgetType: "popup", buttonType: "image", submitThanks: "Thank you, your request has been received. We will respond as soon as possible.", };
-    $widget_attr = { button: null, dialog: null, container: null, overlay: null, iframe: null, iframeLoaded: !1, closeButton: null, mobileCloseButton: null };
+    widget_attr = { button: null, dialog: null, container: null, overlay: null, iframe: null, iframeLoaded: !1, closeButton: null, mobileCloseButton: null };
     var x = { Version: function() {
                 var e = 999;
                 return -1 != navigator.appVersion.indexOf("MSIE") && (e = parseFloat(navigator.appVersion.split("MSIE")[1])), e } },
