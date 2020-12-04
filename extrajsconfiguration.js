@@ -1,10 +1,4 @@
-/* ----------------------------------------------------------------------------------------------------------------
- * NOTE:
- * 		This file is NOT currently being used anywhere in the code.
- * 		This is just a local copy of the actual 'freshwidget.js' file present in the S3 bucket.
- * 		(assets.freshservice.com/widget/freshwidget.js)
- * ---------------------------------------------------------------------------------------------------------------- */
-! function() {
+function() {
     function e(e) {
         try {
             return e() } catch (t) { window.console && window.console.log && window.console.log.apply && window.console.log("Freshdesk Error: ", t) } }
