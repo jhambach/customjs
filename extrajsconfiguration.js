@@ -73,7 +73,8 @@
                     return g(t) }) }, destroy: function() { e(function() {
                     return v() }) } };
     window.FreshWidget || (window.FreshWidget = C) }();
-    if (location.pathname == "/portal/attendants")
+
+if (location.pathname == "/portal/attendants")
 {
 let newBtn = $("<a>");
 newBtn.attr("id","NewBtn");
