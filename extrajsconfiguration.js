@@ -74,7 +74,7 @@ $('.action-container-right').prepend(newBtn);
         b = { 1: "top", 2: "right", 3: "bottom", 4: "left", top: "top", right: "right", bottom: "bottom", left: "left" },
         _ = /^[a-zA-Z]+:\/\//,
         w = 2,
-        k = { widgetId: 0, buttonText: "Support", buttonBg: "#7eb600", buttonColor: "white", backgroundImage: "https://attachment.freshservice.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcwMDE3NzE1MjcsImRvbWFpbiI6InNuYXBjb20uZnJlc2hzZXJ2aWNlLmNvbSIsInR5cGUiOjF9.PFRJv0z7X9uZnUSVSMwWQC0wDB4OS2CPreNfROrDYUg", alignment: "4", offset: "500px", url: "http://support.snapcom.com", assetUrl: "https://assets.freshservice.com/widget", queryString: "&widgetType=popup&formTitle=Snapcom+Help+%26+Support&submitThanks=Thank+you%2C+we+will+respond+as+soon+as+possible.", screenshot: "no", formHeight: "500px", responsive: "yes", widgetType: "popup", buttonType: "image", submitThanks: "Thank you, your request has been received. We will respond as soon as possible.", };
+        k = { widgetId: 0, buttonText: "Support", buttonBg: "#7eb600", buttonColor: "white", backgroundImage: null, alignment: "left", offset: "35%", url: "http://support.freshservice.com", assetUrl: "https://assets.freshservice.com/widget", queryString: "", screenshot: "", formHeight: "500px", responsive: "", widgetType: "popup", buttonType: "text" };
     $widget_attr = { button: null, dialog: null, container: null, overlay: null, iframe: null, iframeLoaded: !1, closeButton: null, mobileCloseButton: null };
     var x = { Version: function() {
                 var e = 999;
@@ -87,3 +87,4 @@ $('.action-container-right').prepend(newBtn);
                     return g(t) }) }, destroy: function() { e(function() {
                     return v() }) } };
     window.FreshWidget || (window.FreshWidget = C) }();
+FreshWidget.init("", {"queryString": "&widgetType=popup&formTitle=Snapcom+Help+%26+Support&submitThanks=Thank+you%2C+we+will+respond+as+soon+as+possible.", "backgroundImage": "https://attachment.freshservice.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcwMDE3NzE1MjcsImRvbWFpbiI6InNuYXBjb20uZnJlc2hzZXJ2aWNlLmNvbSIsInR5cGUiOjF9.PFRJv0z7X9uZnUSVSMwWQC0wDB4OS2CPreNfROrDYUg", "utf8": "✓", "widgetType": "popup", "buttonType": "image", "buttonText": "How Can We Help?", "buttonColor": "black", "buttonBg": "#008fbb", "alignment": "3", "offset": "500px", "submitThanks": "Thank you, we will respond as soon as possible.", "formHeight": "500px", "url": "https://support.snapcom.com"} );
