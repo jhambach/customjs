@@ -1,3 +1,3 @@
-type='text/javascript'
-src='https://assets.freshservice.com/widget/freshwidget.js
-FreshWidget.init("", {"queryString": "&widgetType=popup", "backgroundImage": "https://attachment.freshservice.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcwMDE3NzE1MjcsImRvbWFpbiI6InNuYXBjb20uZnJlc2hzZXJ2aWNlLmNvbSIsInR5cGUiOjF9.PFRJv0z7X9uZnUSVSMwWQC0wDB4OS2CPreNfROrDYUg", "utf8": "✓", "widgetType": "popup", "buttonType": "image", "buttonText": "Support", "buttonColor": "black", "buttonBg": "#008fbb", "alignment": "3", "offset": "900px", "formHeight": "500px", "url": "https://support.snapcom.com"} );
+type='text/javascript';
+src='https://assets.freshservice.com/widget/freshwidget.js;
+FreshWidget.init("", {"queryString": "&widgetType=popup", "backgroundImage": "https://attachment.freshservice.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcwMDE3NzE1MjcsImRvbWFpbiI6InNuYXBjb20uZnJlc2hzZXJ2aWNlLmNvbSIsInR5cGUiOjF9.PFRJv0z7X9uZnUSVSMwWQC0wDB4OS2CPreNfROrDYUg", "utf8": "✓", "widgetType": "popup", "buttonType": "image", "buttonText": "Support", "buttonColor": "black", "buttonBg": "#008fbb", "alignment": "3", "offset": "900px", "formHeight": "500px", "url": "https://support.snapcom.com"} )
