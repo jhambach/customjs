@@ -1,5 +1,5 @@
 // store the toolbar element for reference
-var appmenu = document.getElementsByClassName("dropdown-toggle"); 
+var appmenu = document.getElementsByClassName("dropdown-menu"); 
 
 // Create LI wrapper 
 var appmenuitem = document.createElement("LI"); 
@@ -9,4 +9,4 @@ var appmenuitem = document.createElement("LI");
 appmenuitem.innerHTML = '<a href="https://support.snapcom.com" target="_blank">Support<span style="background-color: #d80000; color: #fff; margin-left: 2px; border-radius: 6px; font-size: .7em; padding: 3px 4px; vertical-align: super;">BETA</span></a>';
 
 // Insert the LI element before the first existing item.
-appmenu[0].insertBefore(tbaritem, appmenu[0].childNodes[1]);
+appmenu.insertAfter(appmenu,appmenuitem);
