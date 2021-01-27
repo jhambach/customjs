@@ -1,3 +1,5 @@
-type='text/javascript';
-src='https://assets.freshservice.com/widget/freshwidget.js;
-FreshWidget.init("", {"queryString": "&widgetType=popup", "backgroundImage": "https://attachment.freshservice.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcwMDE3NzE1MjcsImRvbWFpbiI6InNuYXBjb20uZnJlc2hzZXJ2aWNlLmNvbSIsInR5cGUiOjF9.PFRJv0z7X9uZnUSVSMwWQC0wDB4OS2CPreNfROrDYUg", "utf8": "✓", "widgetType": "popup", "buttonType": "image", "buttonText": "Support", "buttonColor": "black", "buttonBg": "#008fbb", "alignment": "3", "offset": "900px", "formHeight": "500px", "url": "https://support.snapcom.com"} )
+window.announcekit = (window.announcekit || { queue: [], on: function(n, x) { window.announcekit.queue.push([n, x]); }, push: function(x) { window.announcekit.queue.push(x); } });
+  window.announcekit.push({
+    "widget": "https://announcekit.co/widgets/v2/26D3t6"
+  })
+src="https://cdn.announcekit.app/widget-v2.js"
